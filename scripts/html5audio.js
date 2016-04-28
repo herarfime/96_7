@@ -22,8 +22,6 @@ function pad2(number) {
 var myaudioURL = 'http://icecasthd.net:25382/xhpz';
  
 
-/*var myaudioURL = 'http://stream.4zzzfm.org.au:789/;';*/
-/*var myaudioURL = 'http://icecasthd.net:25660/laparrandafm';*/
 var myaudio = new Audio(myaudioURL);
 var isPlaying = false;
 var readyStateInterval = null;
@@ -112,6 +110,6 @@ var html5audio = {
 		myaudio = null;
 		myaudio = new Audio(myaudioURL);
 		textPosition.innerHTML = '';
-		sessionStorage.setItem("audio","parado");
+		sessionStorage.setItem("audio","Alto");
 	}
 };
